@@ -115,9 +115,6 @@ header .textbox {
     gap: 10px;
     text-align: center;
 }
-header .textbox * {
-    /* color: var(--bg-color); */
-}
 header .textbox h1 {
     font-size: 3rem;
 }
@@ -144,6 +141,7 @@ header .textbox p {
     padding: 1.5rem;
     align-items: start;
     justify-content: space-between;
+    box-shadow: 0 0 15px var(--outline-color);
 }
 .species-card .title {
     font-size: 1.5rem;
